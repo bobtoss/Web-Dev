@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin-left: 300px;
+}
+li{
+    font-size: large;
+    margin-bottom: 5px;
+}
+.container{
+    position: relative;
+    text-align: center;
+    margin-left: -200px;
+    color: black;
+}
+.center {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
