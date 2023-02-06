@@ -1,0 +1,107 @@
+body{
+    font-family: sans-serif;
+}
+.iphone{
+    left: 24%;
+    top: 12px;
+    position: relative;
+}
+.reg-form{
+    padding: 40px;
+    text-align: center;
+    position: absolute;
+    width: 270px;
+    left: 51%;
+    top: 6%;
+    background-color: white;
+    height: 350px;
+    margin-bottom: 100px;
+    border-color: rgb(188, 188, 188);
+    border-width: 1px;
+    border-style:solid ;
+}
+.insta-icon{
+    margin-bottom: 40px;
+}
+#email{
+    height: 30px;
+    width: 100%;
+}
+#password{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 100%;
+}
+#in{
+    font-weight: 600;
+    margin-bottom: 15px;
+    background-color: rgb(86, 148, 233);
+    border-radius: 9px;
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 100%;
+}
+.line p{
+    color:rgb(145, 145, 145) ;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid rgb(201, 201, 201); 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+.line p span{
+    background:#fff; 
+    padding:0 10px; 
+}
+.facebook{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.facebook #facebook{
+    text-decoration: none;
+}
+.forgot{
+    font-size: 12px;
+}
+.forgot #forgot{
+    text-decoration: none;
+    color: black;
+}
+.sign-in{
+    border-color: rgb(188, 188, 188);
+    border-width: 1px;
+    border-style:solid ;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 30px;
+    font-size: 13px;
+    left: 51%;
+    top: 68%;
+    position: absolute;
+}
+.sign-in a{
+    text-decoration: none;
+    color: rgb(86, 148, 233);
+    font-weight: 600;
+}
+.app-icons{
+    font-size: 14px;
+    left:52%;
+    top: 77%;
+    position: absolute;
+    width: 300px;
+    text-align: center;
+}
+.android {
+    width: 150px;
+}
+.microsoft{
+    top:-10px;
+    position: relative;
+    width: 110px;
+}
