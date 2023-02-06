@@ -1,0 +1,377 @@
+body{
+    margin-bottom: 100px;
+}
+.micro{
+    position: relative;
+    width: 110px;
+    left:40px;
+}
+.navbar {
+    list-style-type: none;
+    width: 1130px;
+    
+}
+.navbarhover{
+    display: inline-block;
+}
+#leftbuttons{
+    text-decoration: none;
+    position: relative;
+    top:-5px;
+    left : 57px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: #262626;
+    font-weight: 50px;
+}
+.rightbuttons{
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    padding:10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    font-weight:lighter;
+}
+#leftbuttons:hover{
+    /* text-decoration:underline; */
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.micro3651{
+    position: absolute;
+    left: 0px;
+    width: 1480px;
+    height: 470px;
+    z-index: -1;
+}
+#leftbuttons:hover{
+    /* text-decoration:underline; */
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-image: linear-gradient(30deg, #008cf8, #006dc0, #006dc1,#5748fe);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#vhod{
+    position: absolute;
+    left: 1290px;
+}
+.vhod{
+    position: absolute;
+    top:-35px;
+    width: 100px;
+}
+.textmicro365{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 2.4125rem;
+    top:170px;
+    left: 170px;
+}
+.text1{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 320;
+    font-size: 1.1125rem;
+    top:220px;
+    left: 172px;
+}
+#search1{
+    text-decoration: none;
+    position: absolute;
+    top:15px;
+    left : 1215px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: #262626;
+    font-weight: 50px;
+}
+#search1:hover{
+    /* text-decoration:underline; */
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-image: linear-gradient(30deg, #008cf8, #006dc0, #006dc1,#5748fe);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.search{
+    text-decoration: none;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top:21px;
+    left : 1265px;
+}
+.select{
+    border: 0;
+    position: absolute;
+    top:25px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* right: 230px; */
+    left: 1032px;
+    text-decoration: none;
+}
+.for{
+    position: relative;
+    top:270px;
+    height: 50px;
+    width: 170px;
+    background-color: #0067B8;
+    border: 0;
+    border-radius: 3px;
+    left:164px
+}
+#for{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+.for:hover{
+    /* background-color: #005697; */
+    background-image: linear-gradient(30deg, #005ea5, #004f8c, #014a81,#5748fe);
+}
+#for2{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top:270px;
+    left: 192px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#for2:hover{
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+    background-image: linear-gradient(30deg, #005ea5, #004f8c, #014a81,#5748fe);
+    font-size: 20.1px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.firstimage{
+    position: absolute;
+    width: 315px;
+    height: 176px;
+    top: 630px;
+    left: 50px;
+}
+.secondimage{
+    position: absolute;
+    width: 315px;
+    height: 176px;
+    top: 630px;
+    left: 393px;
+}
+.thirdimage{
+    position: absolute;
+    width: 315px;
+    height: 176px;
+    top: 630px;
+    right: 393px;
+}
+.fourthimage{
+    position: absolute;
+    width: 315px;
+    height: 176px;
+    top: 630px;
+    right: 50px;
+}
+.select:hover{
+    background-image: linear-gradient(30deg, #005ea5, #004f8c, #014a81,#5748fe);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.firsttext{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    font-size: 1.5125rem;
+    color: black;
+    top: 830px;
+    left: 48px;
+}
+#firsttext{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 250;
+    font-size: 1.0125rem;
+    color: black;
+    top: 940px;
+    left: 48px;
+}
+.firsttext:hover {
+    background-image: linear-gradient(30deg, #005ea5, #004f8c, #014a81,#5748fe);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.secondtext{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    font-size: 1.8125rem;
+    color: black;
+    top: 830px;
+    left: 392px;
+}
+#secondtext{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 250;
+    font-size: 1.0125rem;
+    color: black;
+    top: 870px;
+    left: 392px;
+}
+.secondtext:hover {
+    background-image: linear-gradient(30deg, #005ea5, #004f8c, #014a81,#5748fe);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.thirdtext{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    font-size: 1.8125rem;
+    color: black;
+    top: 830px;
+    left: 730px;
+}
+#thirdtext{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 250;
+    font-size: 1.0125rem;
+    color: black;
+    top: 920px;
+    left: 730px;
+}
+.thirdtext:hover {
+    background-image: linear-gradient(30deg, #005ea5, #004f8c, #014a81,#5748fe);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.fourthtext{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    font-size: 1.8125rem;
+    color: black;
+    top: 830px;
+    left: 1075px;
+}
+#fourthtext{
+    position: absolute;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 250;
+    font-size: 1.0125rem;
+    color: black;
+    top: 880px;
+    left: 1075px;
+}
+.fourthtext:hover {
+    background-image: linear-gradient(30deg, #005ea5, #004f8c, #014a81,#5748fe);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#firstlink{
+    text-decoration: none;
+    color: rgb(74, 92, 207);
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top:1100px;
+    left: 48px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#firstlink:hover{
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+    background-image: linear-gradient(30deg, #1b9cff, #004f8c, #003c6a,#080063);
+    font-size: 20.1px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#secondlink{
+    text-decoration: none;
+    color: rgb(74, 92, 207);
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top:1030px;
+    left: 392px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#secondlink:hover{
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+    background-image: linear-gradient(30deg, #1b9cff, #004f8c, #003c6a,#080063);
+    font-size: 20.1px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#thirdlink{
+    text-decoration: none;
+    color: rgb(74, 92, 207);
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top:1060px;
+    left: 730px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#thirdlink:hover{
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+    background-image: linear-gradient(30deg, #1b9cff, #004f8c, #003c6a,#080063);
+    font-size: 20.1px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#fourthlink{
+    text-decoration: none;
+    color: rgb(74, 92, 207);
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top:970px;
+    left: 1075px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#fourthlink:hover{
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+    background-image: linear-gradient(30deg, #1b9cff, #004f8c, #003c6a,#080063);
+    font-size: 20.1px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.null{
+    position: absolute;
+    color: white;
+    top:1200px
+}
