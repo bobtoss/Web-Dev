@@ -1,0 +1,54 @@
+<!-- <h3>
+    <a 
+    [title]="product.name + ' details'"
+      [routerLink]="['/products', product.id]">
+      {{ product.name }}
+    </a>
+  </h3>
+  <p *ngIf="product.description">
+    Description:{{product.description}}
+  </p>
+    <a target="_blank" href='https://t.me/share/url?url={{product.link}}&text={Share by telegram}'>
+      <button>Share on Telegram</button>
+    </a>
+  
+  <app-product-alerts
+    [product]="product" 
+    (notify)="onNotify()">
+  </app-product-alerts>
+  <div class="like">
+    <img (click)="like(product.id-1)" width="25px" height="25px" src="https://cdn.worldvectorlogo.com/logos/facebook-reaction-like.svg" alt="">
+    {{product.like}} -->
+
+<div class="product-item">
+  <h3>
+    <a
+      [title]="product.name + ' details'"
+      [routerLink]="['/products', product.id]">
+      {{ product.name }}
+    </a>
+  </h3>
+  <p *ngIf="product.description">Description:{{ product.description }}</p>
+  <a
+    target="_blank"
+    href="https://t.me/share/url?url={{
+      product.link
+    }}&text={Share by telegram}"
+  >
+    <button>Share on Telegram</button>
+  </a>
+
+  <app-product-alerts [product]="product" (notify)="onNotify()">
+  </app-product-alerts>
+
+  <div class="like">
+    <img
+      (click)="like(product.id - 1)"
+      width="25px"
+      height="25px"
+      src="https://cdn.worldvectorlogo.com/logos/facebook-reaction-like.svg"
+      alt=""
+    />
+    {{ product.like }}
+  </div>
+</div>
