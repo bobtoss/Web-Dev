@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppAppComponent {
-  categories = [{id: 1, title:'Чай'}, {id: 2, title:'Газированное'}, {id: 3, title:'Негазированное'}, {id: 4, title:'Вода'},{id: 5, title:'Странное'}];
+  categories = [{id: 1, title:'Drink'}, {id: 2, title:'Smartphone'}, {id: 3, title:'Earphone'}, {id: 4, title:'mouse'}];
   
 }
