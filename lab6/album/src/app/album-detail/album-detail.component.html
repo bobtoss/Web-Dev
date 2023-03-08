@@ -1,0 +1,12 @@
+<div *ngIf="loaded">
+  <h1>Post detail #{{album.id}}</h1>
+  <h2>{{album.title}}</h2>
+
+  <button (click)="back()" class="btn-category">
+    &#8592;
+  </button>
+  <input placeholder="Title" type="text" [(ngModel)]="newTitle">
+  <button (click)="updateItem()">Save change</button>
+  <a [routerLink]="['/albums', album.id, 'photos']">Photos</a>
+</div>
+<h3 *ngIf="!loaded">Album is loading...</h3>

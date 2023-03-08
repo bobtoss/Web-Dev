@@ -1,0 +1,5 @@
+<h2>Photos list</h2>
+<button (click)="back()">&#8592;</button>
+<div *ngFor="let photo of photos">
+  <img src="{{photo.url}}">
+</div>
