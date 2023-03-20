@@ -11,23 +11,18 @@ import {Location} from '@angular/common';
 export class AlbumDetailComponent implements OnInit {
   newTitle: string = "";
   album: Album;
-  loaded: boolean = false;
-  creating: boolean = false;
   constructor( private route: ActivatedRoute, private service: AlbumsService, private _location: Location) {
     this.album = {} as Album;
-    this.loaded = true;
   }
   updateItem(){
-    this.loaded = false;
     const item = {
+      userId: this.album.userId,
       id: this.album.id,
       title: this.newTitle,
     }
     this.service.updateAlbum(item).subscribe((item)=>{
       this.album = item;
-      this.creating = false;
       this.newTitle = "";
-      this.loaded = true;
     })
   }
   back(){
@@ -38,10 +33,8 @@ export class AlbumDetailComponent implements OnInit {
       let _id = params.get('id');
       if (_id) {
         let id = +_id;
-        this.loaded = false;
         this.service.getAlbum(id).subscribe((album) => {
           this.album = album;
-          this.loaded = true;
         })
       }
     });

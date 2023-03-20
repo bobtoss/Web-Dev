@@ -11,7 +11,8 @@ export class AlbumsComponent implements OnInit{
   albums: Album[] = [];
   constructor(private service: AlbumsService) { }
   deleteItem(id:number){
-    this.albums = this.albums.filter((x)=> x.id != id );;
+    this.service.deleteAlbum(id);
+    this.albums = this.albums.filter((x)=> x.id != id );
   }
   ngOnInit(): void {
     this.service.getAlbums().subscribe((albums)=>{

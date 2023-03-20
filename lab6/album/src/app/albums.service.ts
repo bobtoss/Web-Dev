@@ -19,7 +19,6 @@ export class AlbumsService {
   deleteAlbum(id: any): Observable<any>{
     return this.client.delete(`https://jsonplaceholder.typicode.com/albums/${id}`);
   }
-
   updateAlbum(item: Album): Observable<Album> {
     return this.client.put<Album>(`https://jsonplaceholder.typicode.com/albums/${item.id}`,item);
   }

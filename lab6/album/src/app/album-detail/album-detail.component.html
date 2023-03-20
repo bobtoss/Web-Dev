@@ -1,4 +1,4 @@
-<div *ngIf="loaded">
+<div >
   <h1>Post detail #{{album.id}}</h1>
   <h2>{{album.title}}</h2>
 
@@ -9,4 +9,3 @@
   <button (click)="updateItem()">Save change</button>
   <a [routerLink]="['/albums', album.id, 'photos']">Photos</a>
 </div>
-<h3 *ngIf="!loaded">Album is loading...</h3>

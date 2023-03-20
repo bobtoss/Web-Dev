@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {AlbumsService} from "../albums.service";
-import {Album, Photo} from "../model";
+import { Photo} from "../model";
 import { ActivatedRoute } from '@angular/router';
 import {Location} from '@angular/common';
 
