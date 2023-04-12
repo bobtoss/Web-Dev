@@ -6,7 +6,7 @@ from .models import Product,Category
 def products(request):
     all_products = Product.objects.all()
     products_json = [p.to_json() for p in all_products]
-    return JsonResponse(products_json,safe=False)
+    return JsonResponse(products_json, safe=False)
 
 def product_by_id(request, id):
     product = Product.objects.filter(id = id).first()
